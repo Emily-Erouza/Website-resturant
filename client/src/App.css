@@ -1,0 +1,445 @@
+/* Home */
+.page {
+  background-color: blanchedalmond;
+  background-size: cover;
+  border-radius: 3px;
+  margin:  10px auto;
+  position: relative;
+  padding: 90px;
+  background-repeat: no-repeat;
+  padding: 10px;
+} 
+
+.Header-page{
+margin-top: 9%;
+
+}
+
+.logo {
+  margin-top: 5px; 
+  border-radius: 130%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+
+ /*Style for Navbar  */
+.Navbar li a {
+  padding: 8px;
+  justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: #007bff;
+}
+
+
+.nav-bar li a {
+  display: block;
+  color: rgb(156, 83, 83);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a{
+  text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.nav-bar li {
+  float: right;
+  display:inline;
+  color: black;
+  margin: 0 15px;
+  
+  
+} 
+
+ .Navbar a:hover {
+  cursor: pointer;
+  color: rgb(235, 124, 143);
+}
+
+
+/* title */
+.header {
+  text-align: justify;
+
+}
+
+.btn {
+  background-color: #5daeb4;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px 0 rgba(22, 21, 21, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgb(83, 122, 122), 0 17px 50px 0 rgb(83, 121, 121);
+}
+
+.mealActionButtons{
+  margin-top: 9%; 
+
+} 
+
+/* homeimage */
+ #photo img{
+  height: auto;
+  float: right;
+  border-radius: 60%;
+  position: relative;
+  max-width: 60%;
+  
+ } 
+ 
+.headers {
+  margin-top: 10px;
+}
+
+
+p {
+  margin-right: 20%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+ 
+
+}
+
+h1:hover {
+  color: red;
+
+}
+
+h2:hover {
+  color: red;
+
+}
+
+
+.service-page {
+  background-image: url("https://www.nccusa.com/wp-content/uploads/2015/04/bigstock-catering-services-background-w-63696943small.jpg");
+  background-size: cover;
+  height: 400%;
+  width: 800px;
+  border-radius: 3px;
+  box-shadow: 5px 10px 10px #151616;
+  /* margin:  10px auto; */
+  margin-top: 19%;
+  position: relative;
+  padding: 90px;
+  background-repeat: no-repeat;
+margin-left: 30%;
+}
+
+
+.srv {
+
+  margin-bottom: 30px;
+}
+
+.card {
+  display:block; 
+   flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+   border: 1px solid rgb(235, 143, 143); 
+  border-radius: 10px;
+
+}
+
+.card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+
+b {
+  color: red;
+}
+
+b:hover {
+  box-shadow: 0 12px 16px 0 rgb(83, 122, 122), 0 17px 50px 0 rgb(83, 121, 121);
+}
+
+/*Style for Form */
+.Signup {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220517/pngtree-a-girl-holding-a-mobile-phone-displaying-a-screen-photo-image_24633912.jpg");
+  background-size: cover;
+  height: 400%;
+  width: 600px;
+  border-radius: 3px;
+  box-shadow: 5px 10px 10px #151616;
+  margin:  10px auto;
+  position: relative;
+  padding: 0px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+h4{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(53, 10, 63);
+  margin-left: auto;
+}
+
+
+.form-control {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.button:hover {
+  background-color: #bacee4;
+}
+
+/* Style for contacts */
+#contacts {
+  text-align: center;
+  width: 40%;
+  height: 500%;
+  margin: auto;
+ margin-top: 38%;
+  height: 200%;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px #151616;
+  background-repeat: no-repeat;
+ padding: 10px; 
+ background-image: url("https://www.shutterstock.com/image-photo/aromatic-coffee-notepad-on-wood-260nw-267536045.jpg");
+ background-size: cover;
+
+}
+
+.info {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+
+.info p {
+  margin: 10px 0;
+  color: rgb(35, 5, 44);
+}
+
+
+.info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.info .phone {
+  font-weight: bold;
+}
+
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+
+/*  Style for Menu */
+.container {
+  color:rgb(14, 13, 13) ;
+  padding: 20%;
+ 
+}
+
+.title {
+  background-image: url("https://previews.123rf.com/images/artlana/artlana1310/artlana131000041/23257720-menu-template-with-glass-of-orange-juice-and-flowers.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 800px;
+  border-radius: 3px;
+  box-shadow: 5px 10px 10px #151616;
+  margin:  10vh;
+  margin-left: 20%;
+  position: relative;
+  padding: 90px;
+  background-repeat: no-repeat;
+  padding: 10px;
+
+}
+
+.title h3 {
+font-size: 4vh;
+margin: 10;
+text-align: center;
+height: 0vh;
+}
+.title h3:hover{
+  color: red;
+}
+.menu {
+  padding: 20px;
+ 
+
+}
+
+.recipe-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  box-shadow: #007bff;
+
+}
+
+.recipe {
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+text-align: center;
+}
+
+.recipe:hover {
+  text-decoration: underline;
+}
+
+.button {
+  margin-right: 100%;
+  text-align: center;
+  color: #0e0d0d;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Modal */
+/* Style for Modal */
+
+
+.modal-content {
+ background-image: url("https://wallpapercrafter.com/desktop1/554243-bottles-table-blurred-sea-food-glasses-paprika.jpg");
+ background-size: cover;
+  border-radius: 10%;
+  box-shadow: blue;
+  margin-bottom: 1vh;
+}
+
+.modal-header {
+  color: #131111;
+  border-bottom: 10px solid #dee2e6;
+  width: 100%;
+
+}
+
+.modal-title {
+  font-size: 1.5rem;
+ 
+}
+
+.modal-body {
+  padding: 5px;
+  width: 50%;
+  
+}
+
+/* Style for Form inside Modal */
+.form-control {
+  margin-bottom: 1rem;
+  width: 40%;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+  
+}
+
+/* Style for Buttons in Modal Footer */
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #5ca9f5;
+  color: #fff;
+}
+
+.btn-secondary,
+.btn-primary {
+margin-bottom: 100%;
+border: #333;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  background-color: #2a8bf3;
+}
+.send{
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230831/pngtree-purple-table-mat-with-purple-fork-and-knife-image_13099072.jpg");
+background-size:cover ;
+border-radius: 10%;
+ margin-bottom: 1vh;
+ width: auto; 
+ height:  10vh;
+
+}
+
+
+
