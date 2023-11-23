@@ -17,6 +17,7 @@ margin-top: 9%;
 
 .logo {
   margin-top: 5px; 
+  /** You can probably stick to border-radius 50% in most cases to get a round image */
   border-radius: 130%;
   max-width: 100px;
   max-height: 100px;
@@ -58,6 +59,7 @@ margin-top: 9%;
 
 }
 .nav-bar li {
+  /* You should stay away from float. It's a very old way of lining up items, and should be reserved for images in text */
   float: right;
   display:inline;
   color: black;
@@ -441,5 +443,6 @@ border-radius: 10%;
 
 }
 
-
+/* It's really great that you're getting more comfortable with css!
+But you can probably make more use of Bootstrap (because you already have it in this project) */
 

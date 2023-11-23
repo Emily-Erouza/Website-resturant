@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Best to give this a name like `User`, rather than `Schema`, as it's more descriptive
 const Schema = new mongoose.Schema({
 
   
@@ -35,7 +36,9 @@ const Schema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('users', Schema);
+// You would normally name the model for a single "thing" that you're working with,
+// So, `user` instead of `users`
+module.exports = mongoose.model('user', Schema);
 
 
 

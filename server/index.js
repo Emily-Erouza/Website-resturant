@@ -7,6 +7,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
+// You shouldn't add this kind of information to Git. Right now, someone could use this to inject malicious code into your database.
 const url2 = "mongodb+srv://emilysbongile17:Emily.20@cluster0.9ucgs2k.mongodb.net/?retryWrites=true&w=majority"
 console.log(url2)
 mongoose.connect(url2).then(res => console.log("conntected")).catch(e => console.log("eeeee", e))

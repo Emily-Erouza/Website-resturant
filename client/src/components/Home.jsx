@@ -56,9 +56,12 @@ const Home = () => {
         </p>
         <p>Bon appétit!</p>
       </div>
+      {/* type="submit" should only be in a form. You also have a button and a link, but you probably only want a link here */}
       <button type="submit" className="button">
+        {/* I don't think the `value` attribute here is doing anything? */}
         <a  href="#ordermenu" value="ordermenu">Menu...</a>
       </button>
+      {/* I think for the button above you're trying to use form attributes, but you don't need to because this isn't a form */}
       
     </div>
   );
