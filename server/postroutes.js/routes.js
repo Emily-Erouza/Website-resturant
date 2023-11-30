@@ -1,7 +1,38 @@
-const Form = require("../models/mySchemas");
+// This require was incorrect
+const Form = require("../models/Schemas");
 
 const saveForm = (app) => {
 
+  /**
+   * You normally wouldn't give different endpoints for operations,
+   * instead you would rely on the http verbs (GET, POST, PUT, DELETE)
+   * 
+   * So for example, you would have,
+   * 
+   * ```
+   * 
+   * ...
+   * 
+   * app.post("users", ...)
+   * 
+   * ...
+   * 
+   * app.get("users/:id", ...)
+   * 
+   * ...
+   * 
+   * app.put("users/:id", ...)
+   * 
+   * ...
+   * 
+   * app.delete("users/:id", ...)
+   * 
+   * ...
+   * 
+   * ```
+   * 
+   * Note also that I've used the endpoint `users` as it's more descriptive of the model that you're working with
+   */
   app.post("/Form", async (req, res) => {
     try {
       let { userName, emailAdress, homeAddress, BankName,AccNumber,Items} = req.body;
@@ -25,6 +56,7 @@ const saveForm = (app) => {
     }
   });
 
+  // A better name for this might be 
   app.get("/FormDetails", async (req, res) => {
     try {
       const findForm= await Form.find();
