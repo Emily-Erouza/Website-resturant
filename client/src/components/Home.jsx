@@ -57,7 +57,7 @@ const Home = () => {
         <p>Bon appétit!</p>
       </div>
       <button type="submit" className="button">
-        <a  href="#ordermenu" value="ordermenu">Menu...</a>
+        <a  href="#ordermenu" >Menu...</a>
       </button>
       
     </div>
