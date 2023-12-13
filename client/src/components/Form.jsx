@@ -15,7 +15,7 @@ const Form = () => {
     }, [])
 
     const getUser = async () => {
-        var users = await axios.get('http://localhost:4000/users')
+        var users =  await fetch('http://localhost:4000/users')
         getUser(users.data);
     }
 
@@ -23,7 +23,7 @@ const Form = () => {
         e.preventDefault();
             console.log("UserName:", userName,  "emailAdress:",emailAddress,"homeAdress:",homeAddress, "BankName:", BankName, "AccNumber:", AccNumber, "Items:", Items,);
 
-        var user = await axios.post('http://localhost:4000/users', {
+        var user = await fetch('http://localhost:4000/users', {
             userName,
             emailAddress,
             homeAddress,
@@ -52,7 +52,7 @@ const Form = () => {
             <h4>Savor the Flavor: Sign Up for Culinary Delights!</h4>
 
             <div className="form" >
-                <label htmlFor="userName">Name</label>
+                <label for="userName">Name</label>
                 <input
                     type="text"
                     placeholder="Enter your userName"
@@ -64,7 +64,7 @@ const Form = () => {
                 />
                 <br />
 
-                <label htmlFor="emailAddress">Email Address</label>
+                <label for="emailAddress">Email Address</label>
                 <input
                     type="text"
                     placeholder="Enter your Email Address"
@@ -76,7 +76,7 @@ const Form = () => {
                 />
 
                 <br />
-                <label htmlFor="homeAddress">Home Address</label>
+                <label for="homeAddress">Home Address</label>
                 <input
                     type="text"
                     placeholder="Enter your home address"
@@ -89,7 +89,7 @@ const Form = () => {
 
                 <br />
 
-                <label htmlFor="Bank Name">Bank Name</label>
+                <label for="Bank Name">Bank Name</label>
                 <input
                     type="text"
                     placeholder="Enter your Bank Name"
@@ -101,7 +101,7 @@ const Form = () => {
                 />
                 <br />
 
-                <label htmlFor="Acc no">Acc Number</label>
+                <label for="Acc no">Acc Number</label>
                 <input
                     type="text"
                     placeholder="Enter your Acc number"
@@ -113,7 +113,7 @@ const Form = () => {
                 />
                 <br />
 
-                <label htmlFor="items">Items</label>
+                <label for="items">Items</label>
                 <input
                     type="text"
                     placeholder="Enter your Items"

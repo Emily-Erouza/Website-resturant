@@ -2,14 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const UserModel = require("./models/Schemas");
 const cors = require("cors");
-
+const port = process.env.PORT || 5000
 
 const app = express();
 app.use(cors());
 
-const url2 = "mongodb+srv://emilysbongile17:Emily.20@cluster0.9ucgs2k.mongodb.net/?retryWrites=true&w=majority"
-console.log(url2)
-mongoose.connect(url2).then(res => console.log("conntected")).catch(e => console.log("eeeee", e))
+
 
 
 app.get("/users", (req, res) => {
@@ -32,6 +30,6 @@ app.get("/users", (req, res) => {
   });
   
   
-  app.listen(4000, () => {
-    console.log("listening to port 4000");
+  app.listen(port, () => {
+    console.log("listening to port 5000");
   })

@@ -1,4 +1,4 @@
-const Form = require("../models/mySchemas");
+const Form = require("../models/Schemas");
 
 const saveForm = (app) => {
 
@@ -34,7 +34,7 @@ const saveForm = (app) => {
     }
   });
 
-  app.get("/details/:id", async (req, res) => {
+  app.get("/users/:id", async (req, res) => {
     try {
       const findForm = await Form.findById(req.body.id);
       res.send(findForm);
@@ -43,7 +43,7 @@ const saveForm = (app) => {
     }
   });
 
-  app.put('/update/:id', async (req,res) =>{
+  app.put('/users/:id', async (req,res) =>{
    const { id } = req.params;
    let { userNamename, emailAdress, homeAddress,BankName, AccNumber, Items, } = req.body;
 
@@ -57,7 +57,7 @@ const saveForm = (app) => {
    }
   })
 
-  app.delete('/delete/:id', async (req, res) =>{
+  app.delete('/users/:id', async (req, res) =>{
    try {
       const { id } = req.params;
       const deleteFormDetails = await Form.deleteOne({id:id})

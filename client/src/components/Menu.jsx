@@ -1,4 +1,4 @@
-
+import React from "react";
 const Menu = () => {
   
     let items = [
@@ -35,21 +35,10 @@ const Menu = () => {
         <div className="container">
         <div className="title">
           <h3>Menu</h3>
-        
-        <div className="menu" id="ordermenu">
-
-          {items.length === 0 && <p>No items found </p>}
-          <ul className="recipe-item ">
-            {items.map((item) => (
-              <li className="recipe" key={item} onClick={() => console.log(item)}> {item} </li>
-            ))}
-          </ul>
-
-           <button type="submit"  className="button">
-            <a id="modal" href="#modal" value="modal">click</a>
-          </button> 
- 
-
+          <div id="text">
+          {items.map((item) => (
+            <div key={item} dangerouslySetInnerHTML={{ __html: item }} />
+          ))}
         </div>
         
         </div>
